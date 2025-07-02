@@ -1,0 +1,338 @@
+-------------------------------------------------------------------------------
+              storage  display     value
+variable name   type   format      label      variable label
+-------------------------------------------------------------------------------
+county          byte   %8.0g                  COUNTY
+age             byte   %8.0g                  AGE
+remsamp         byte   %8.0g                  REMED SAMP WITH NO ENG, DEGREE,
+xsexf           byte   %8.0g                  SEX FEMALE
+xhsdip          byte   %8.0g                  DOES REGISTRANT HAVE HSD?
+white           byte   %8.0g                  XETHNICH XETHNICB XETHAO
+hisp            byte   %8.0g                  HISPANIC
+black           byte   %8.0g                  BLACK
+x1chld          byte   %8.0g                  ONE CHILD
+xchld05         byte   %8.0g                  CHILDREN LESS THAN 6 YEARS OLD
+alameda         byte   %8.0g                  <=
+river           byte   %8.0g                  <=
+sandiego        byte   %8.0g                  <=
+la              byte   %8.0g                  <=
+e               byte   %8.0g                  TREATMENT INDICATOR
+adcpc4          int    %8.0g                  AFDC AMT REL PR FISC Q 4
+adcpc3          int    %8.0g                  AFDC AMT REL PR FISC Q 3
+adcpc2          int    %8.0g                  AFDC AMT REL PR FISC Q 2
+adcpc1          int    %8.0g                  AFDC AMT REL PR FISC Q 1
+agesq           float  %9.0g                  age squared
+afdcfg          float  %9.0g                  
+single          float  %9.0g                  1 if single
+grde911         float  %9.0g                  Highest grade between 9th and
+                                                11th
+grade12         float  %9.0g                  Highest grade is 12th
+grd1315         float  %9.0g                  Highest grade between 13th and
+                                                15th
+grade16         float  %9.0g                  Highest grade is 16
+grd1720         float  %9.0g                  Highest grade is between 17 and
+                                                20
+dumkids         float  %9.0g                  More than 1 child
+tcedd1          float  %9.0g                  topcoded cpi adj edd earnings 1
+                                                quarter after RA
+tcedd2          float  %9.0g                  topcoded cpi adj edd earnings 2
+                                                quarters after RA
+tcedd3          float  %9.0g                  topcoded cpi adj edd earnings 3
+                                                quarters after RA
+tcedd4          float  %9.0g                  topcoded cpi adj edd earnings 4
+                                                quarters after RA
+tcedd5          float  %9.0g                  topcoded cpi adj edd earnings 5
+                                                quarters after RA
+tcedd6          float  %9.0g                  topcoded cpi adj edd earnings 6
+                                                quarters after RA
+tcedd7          float  %9.0g                  topcoded cpi adj edd earnings 7
+                                                quarters after RA
+tcedd8          float  %9.0g                  topcoded cpi adj edd earnings 8
+                                                quarters after RA
+tcedd9          float  %9.0g                  topcoded cpi adj edd earnings 9
+                                                quarters after RA
+tcedd10         float  %9.0g                  topcoded cpi adj edd earnings
+                                                10 quarters after RA
+tcedd11         float  %9.0g                  topcoded cpi adj edd earnings
+                                                11 quarters after RA
+tcedd12         float  %9.0g                  topcoded cpi adj edd earnings
+                                                12 quarters after RA
+tcedd13         float  %9.0g                  topcoded cpi adj edd earnings
+                                                13 quarters after RA
+tcedd14         float  %9.0g                  topcoded cpi adj edd earnings
+                                                14 quarters after RA
+tcedd15         float  %9.0g                  topcoded cpi adj edd earnings
+                                                15 quarters after RA
+tcedd16         float  %9.0g                  topcoded cpi adj edd earnings
+                                                16 quarters after RA
+tcedd17         float  %9.0g                  topcoded cpi adj edd earnings
+                                                17 quarters after RA
+tcedd18         float  %9.0g                  topcoded cpi adj edd earnings
+                                                18 quarters after RA
+tcedd19         float  %9.0g                  topcoded cpi adj edd earnings
+                                                19 quarters after RA
+tcedd20         float  %9.0g                  topcoded cpi adj edd earnings
+                                                20 quarters after RA
+tcedd21         float  %9.0g                  topcoded cpi adj edd earnings
+                                                21 quarters after RA
+tcedd22         float  %9.0g                  topcoded cpi adj edd earnings
+                                                22 quarters after RA
+tcedd23         float  %9.0g                  topcoded cpi adj edd earnings
+                                                23 quarters after RA
+tcedd24         float  %9.0g                  topcoded cpi adj edd earnings
+                                                24 quarters after RA
+tcedd25         float  %9.0g                  topcoded cpi adj edd earnings
+                                                25 quarters after RA
+tcedd26         float  %9.0g                  topcoded cpi adj edd earnings
+                                                26 quarters after RA
+tcedd27         float  %9.0g                  topcoded cpi adj edd earnings
+                                                27 quarters after RA
+tcedd28         float  %9.0g                  topcoded cpi adj edd earnings
+                                                28 quarters after RA
+tcedd29         float  %9.0g                  topcoded cpi adj edd earnings
+                                                29 quarters after RA
+tcedd30         float  %9.0g                  topcoded cpi adj edd earnings
+                                                30 quarters after RA
+tcedd31         float  %9.0g                  topcoded cpi adj edd earnings
+                                                31 quarters after RA
+tcedd32         float  %9.0g                  topcoded cpi adj edd earnings
+                                                32 quarters after RA
+tcedd33         float  %9.0g                  topcoded cpi adj edd earnings
+                                                33 quarters after RA
+tcedd34         float  %9.0g                  topcoded cpi adj edd earnings
+                                                34 quarters after RA
+tcedd35         float  %9.0g                  topcoded cpi adj edd earnings
+                                                35 quarters after RA
+tcedd36         float  %9.0g                  topcoded cpi adj edd earnings
+                                                36 quarters after RA
+tcprn1          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                1 quarter before RA
+tcprn2          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                2 quarters before RA
+tcprn3          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                3 quarters before RA
+tcprn4          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                4 quarters before RA
+tcprn5          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                5 quarters before RA
+tcprn6          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                6 quarters before RA
+tcprn7          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                7 quarters before RA
+tcprn8          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                8 quarters before RA
+tcprn9          float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                9 quarters before RA
+tcprn10         float  %9.0g                  topcoded cpi adj MDRC earnings
+                                                10 quarters before RA
+grew1           float  %9.0g                  growth in real earnings per
+                                                worker at quarter of RA
+gepop1          float  %9.0g                  growth in employment to pop
+                                                ratio at quarter of RA
+paid4           float  %9.0g                  indicator for AFDC 4 quarters
+                                                before RA, as defined by EDD
+paid3           float  %9.0g                  indicator for AFDC 3 quarters
+                                                before RA, as defined by EDD
+paid2           float  %9.0g                  indicator for AFDC 2 quarters
+                                                before RA, as defined by EDD
+paid1           float  %9.0g                  indicator for AFDC 1 quarter
+                                                before RA, as defined by EDD
+aid1            float  %9.0g                  indicator for AFDC 1 quarter
+                                                after RA, as defined by EDD
+aid2            float  %9.0g                  indicator for AFDC 2 quarters
+                                                after RA, as defined by EDD
+aid3            float  %9.0g                  indicator for AFDC 3 quarters
+                                                after RA, as defined by EDD
+aid4            float  %9.0g                  indicator for AFDC 4 quarters
+                                                after RA, as defined by EDD
+aid5            float  %9.0g                  indicator for AFDC 5 quarters
+                                                after RA, as defined by EDD
+aid6            float  %9.0g                  indicator for AFDC 6 quarters
+                                                after RA, as defined by EDD
+aid7            float  %9.0g                  indicator for AFDC 7 quarters
+                                                after RA, as defined by EDD
+aid8            float  %9.0g                  indicator for AFDC 8 quarters
+                                                after RA, as defined by EDD
+aid9            float  %9.0g                  indicator for AFDC 9 quarters
+                                                after RA, as defined by EDD
+aid10           float  %9.0g                  indicator for AFDC 10 quarters
+                                                after RA, as defined by EDD
+aid11           float  %9.0g                  indicator for AFDC 11 quarters
+                                                after RA, as defined by EDD
+aid12           float  %9.0g                  indicator for AFDC 12 quarters
+                                                after RA, as defined by EDD
+aid13           float  %9.0g                  indicator for AFDC 13 quarters
+                                                after RA, as defined by EDD
+aid14           float  %9.0g                  indicator for AFDC 14 quarters
+                                                after RA, as defined by EDD
+aid15           float  %9.0g                  indicator for AFDC 15 quarters
+                                                after RA, as defined by EDD
+aid16           float  %9.0g                  indicator for AFDC 16 quarters
+                                                after RA, as defined by EDD
+aid17           float  %9.0g                  indicator for AFDC 17 quarters
+                                                after RA, as defined by EDD
+aid18           float  %9.0g                  indicator for AFDC 18 quarters
+                                                after RA, as defined by EDD
+aid19           float  %9.0g                  indicator for AFDC 19 quarters
+                                                after RA, as defined by EDD
+aid20           float  %9.0g                  indicator for AFDC 20 quarters
+                                                after RA, as defined by EDD
+aid21           float  %9.0g                  indicator for AFDC 21 quarters
+                                                after RA, as defined by EDD
+aid22           float  %9.0g                  indicator for AFDC 22 quarters
+                                                after RA, as defined by EDD
+aid23           float  %9.0g                  indicator for AFDC 23 quarters
+                                                after RA, as defined by EDD
+aid24           float  %9.0g                  indicator for AFDC 24 quarters
+                                                after RA, as defined by EDD
+aid25           float  %9.0g                  indicator for AFDC 25 quarters
+                                                after RA, as defined by EDD
+aid26           float  %9.0g                  indicator for AFDC 26 quarters
+                                                after RA, as defined by EDD
+aid27           float  %9.0g                  indicator for AFDC 27 quarters
+                                                after RA, as defined by EDD
+aid28           float  %9.0g                  indicator for AFDC 28 quarters
+                                                after RA, as defined by EDD
+aid29           float  %9.0g                  indicator for AFDC 29 quarters
+                                                after RA, as defined by EDD
+aid30           float  %9.0g                  indicator for AFDC 30 quarters
+                                                after RA, as defined by EDD
+aid31           float  %9.0g                  indicator for AFDC 31 quarters
+                                                after RA, as defined by EDD
+aid32           float  %9.0g                  indicator for AFDC 32 quarters
+                                                after RA, as defined by EDD
+aid33           float  %9.0g                  indicator for AFDC 33 quarters
+                                                after RA, as defined by EDD
+aid34           float  %9.0g                  indicator for AFDC 34 quarters
+                                                after RA, as defined by EDD
+aid35           float  %9.0g                  indicator for AFDC 35 quarters
+                                                after RA, as defined by EDD
+aid36           float  %9.0g                  indicator for AFDC 36 quarters
+                                                after RA, as defined by EDD
+tcpp1           float  %9.0g                  
+tcpp2           float  %9.0g                  
+tcpp3           float  %9.0g                  
+tcpp4           float  %9.0g                  
+tcpp5           float  %9.0g                  
+tcpp6           float  %9.0g                  
+tcpp7           float  %9.0g                  
+tcpp8           float  %9.0g                  
+tcpp9           float  %9.0g                  
+tcpp10          float  %9.0g                  
+padcpc1         float  %9.0g                  
+padcpc2         float  %9.0g                  
+padcpc3         float  %9.0g                  
+padcpc4         float  %9.0g                  
+ptcedd1         float  %9.0g                  
+ptcedd2         float  %9.0g                  
+ptcedd3         float  %9.0g                  
+ptcedd4         float  %9.0g                  
+ptcedd5         float  %9.0g                  
+ptcedd6         float  %9.0g                  
+ptcedd7         float  %9.0g                  
+ptcedd8         float  %9.0g                  
+ptcedd9         float  %9.0g                  
+ptcedd10        float  %9.0g                  
+ptcedd11        float  %9.0g                  
+ptcedd12        float  %9.0g                  
+ptcedd13        float  %9.0g                  
+ptcedd14        float  %9.0g                  
+ptcedd15        float  %9.0g                  
+ptcedd16        float  %9.0g                  
+ptcedd17        float  %9.0g                  
+ptcedd18        float  %9.0g                  
+ptcedd19        float  %9.0g                  
+ptcedd20        float  %9.0g                  
+ptcedd21        float  %9.0g                  
+ptcedd22        float  %9.0g                  
+ptcedd23        float  %9.0g                  
+ptcedd24        float  %9.0g                  
+ptcedd25        float  %9.0g                  
+ptcedd26        float  %9.0g                  
+ptcedd27        float  %9.0g                  
+ptcedd28        float  %9.0g                  
+ptcedd29        float  %9.0g                  
+ptcedd30        float  %9.0g                  
+ptcedd31        float  %9.0g                  
+ptcedd32        float  %9.0g                  
+ptcedd33        float  %9.0g                  
+ptcedd34        float  %9.0g                  
+ptcedd35        float  %9.0g                  
+ptcedd36        float  %9.0g                  
+ymw1            float  %9.0g                  
+ymw2            float  %9.0g                  
+ymw3            float  %9.0g                  
+ymw4            float  %9.0g                  
+ymw5            float  %9.0g                  
+ymw6            float  %9.0g                  
+ymw7            float  %9.0g                  
+ymw8            float  %9.0g                  
+ymw9            float  %9.0g                  
+ymw10           float  %9.0g                  
+ymw11           float  %9.0g                  
+ymw12           float  %9.0g                  
+ymw13           float  %9.0g                  
+ymw14           float  %9.0g                  
+ymw15           float  %9.0g                  
+ymw16           float  %9.0g                  
+ymw17           float  %9.0g                  
+ymw18           float  %9.0g                  
+ymw19           float  %9.0g                  
+ymw20           float  %9.0g                  
+ymw21           float  %9.0g                  
+ymw22           float  %9.0g                  
+ymw23           float  %9.0g                  
+ymw24           float  %9.0g                  
+ymw25           float  %9.0g                  
+ymw26           float  %9.0g                  
+ymw27           float  %9.0g                  
+ymw28           float  %9.0g                  
+ymw29           float  %9.0g                  
+ymw30           float  %9.0g                  
+ymw31           float  %9.0g                  
+ymw32           float  %9.0g                  
+ymw33           float  %9.0g                  
+ymw34           float  %9.0g                  
+ymw35           float  %9.0g                  
+ymw36           float  %9.0g                  
+tcddyp13        float  %9.0g                  
+tcddyp46        float  %9.0g                  
+tcddyp79        float  %9.0g                  
+tcddw13         float  %9.0g                  
+tcddw46         float  %9.0g                  
+tcddw79         float  %9.0g                  
+tcddy13         float  %9.0g                  
+tcddy46         float  %9.0g                  
+tcddy79         float  %9.0g                  
+o299013         float  %9.0g                  
+o299046         float  %9.0g                  
+o299079         float  %9.0g                  
+aidy13          float  %9.0g                  
+aidy46          float  %9.0g                  
+aidy79          float  %9.0g                  
+aidw13          float  %9.0g                  
+aidw46          float  %9.0g                  
+aidw79          float  %9.0g                  
+unemp10         float  %9.0g                  
+aidcon4         float  %9.0g                  
+-------------------------------------------------------------------------------
+
+
+SUMMARY OF VARIABLES IN THE FILE:
+
+/* 'Sample selection' variables */
+remsamp afdcfg county alameda la river sandiego unemp10 aidcon4
+
+/* Dependent Variables */
+/* Quarterly Dependent Variables (Outcomes) */
+tcedd1-tcedd36 ptcedd1-ptcedd36 ymw1-ymw36 aid1-aid36 
+/* Three-year Dependent Variables (Outcomes) */
+tcddyp13-tcddyp79 tcddw13-tcddw79 tcddy13-tcddy79 o299013-o299079 aidy13-aidy79 aidw13-aidw79
+
+/* Treatment variable */
+e
+
+/* Covariates */
+grew1 gepop1 tcprn1-tcprn10 tcpp1-tcpp10 paid4-paid1 adcpc4-adcpc1 padcpc1-padcpc4 
+xsexf xhsdip x1chld single dumkids xchld05 grd1720 grade16 grd1315 grade12 grde911
+white hisp black age agesq;

@@ -6,9 +6,12 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import statsmodels.api as sm
-import adelie as ad
+
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
+
+from sklearn.linear_model import LassoCV, RidgeCV
+
 from pathlib import Path
 
 from utils import range_regex
@@ -187,13 +190,10 @@ if model_choice == "OLS":
     model_info['In-Sample R²'] = f"{ols_model.rsquared:.3f}"
 
 elif model_choice in ["Ridge", "Lasso"]:
-    model = ad.GroupElasticNet(solver = "cv_grpnet")
-    alp = 0 if model_choice == "Ridge" else 1
-
+    model = LassoCV() if model_choice == "Lasso" else RidgeCV()
     # Fit model on training data
-    model.fit(P_train_f, Y_train, alpha=alp, min_ratio=1e-10, progress_bar=False)
-    alpha_surr = model.state_.betas[-1].toarray().squeeze()
-
+    model.fit(P_train_f, Y_train,)
+    alpha_surr = model.coef_
     # Evaluate on test data
     y_pred = model.predict(P_test_f)
     r2 = r2_score(Y_test, y_pred.squeeze())
