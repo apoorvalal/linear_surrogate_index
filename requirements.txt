@@ -1,0 +1,6 @@
+numpy
+pandas
+adelie
+statsmodels
+scikit-learn
+matplotlib
